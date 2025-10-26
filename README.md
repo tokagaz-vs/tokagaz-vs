@@ -1,4 +1,3 @@
-<!-- Стильный минималистичный баннер -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=F72585&height=220&section=header&text=Daniil%20|%20tokagaz-vs&fontSize=50&fontColor=FFFFFF&animation=fadeIn" alt="Header Banner"/>
 </p>
@@ -11,10 +10,6 @@
 
 <h3 align="center">Мой технологический стек</h3>
 
-<!-- 
-  Табличное представление стека.
-  Это выглядит гораздо "приятнее" и структурированнее, чем просто набор иконок.
--->
 <table align="center">
   <tr>
     <td align="center"><strong>💻 Frontend</strong></td>
@@ -42,7 +37,6 @@
   Если у вас есть идея, вакансия или вы просто хотите обсудить технологии — пишите!
 </p>
 
-<!-- Контакты сразу под призывом к действию -->
 <p align="center">
   <a href="https://t.me/d_ivanov142">
     <img src="https://img.shields.io/badge/Telegram-F72585?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
@@ -50,9 +44,4 @@
   <a href="mailto:tokagaz-vs@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-F72585?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-</p>
-
-<!-- Розовая змейка как стильный футер -->
-<p align="center">
-  <img src="https://github.com/tokagaz-vs/tokagaz-vs/raw/output/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
