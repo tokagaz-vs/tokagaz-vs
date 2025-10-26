@@ -9,20 +9,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      # Скачиваем репозиторий, чтобы Action мог сохранить в него файл
+      - uses: actions/checkout@v3
 
-      - uses: Platane/snk@v2
+      # Запускаем Action последней, третьей версии (v3)
+      - uses: Platane/snk@v3
         with:
+          # Указываем твой ник
           github_user_name: tokagaz-vs
           
+          # Указываем, куда сохранить картинки
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
-          # 🐍 НОВЫЙ ПРАВИЛЬНЫЙ СПОСОБ ЗАДАТЬ ЦВЕТА
-          # Все дополнительные параметры передаются через 'args' одной строкой
-          args: --color_snake '#F72585' --color_dots '#fad1e8,#f8b4d9,#f58dc3,#f266ad,#F72585'
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
+      # Сохраняем сгенерированные файлы в репозиторий
       - name: Push to repo
         run: |
           git config --global user.name 'github-actions[bot]'
