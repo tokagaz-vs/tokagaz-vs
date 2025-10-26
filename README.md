@@ -1,16 +1,22 @@
-## Hi there 👋
+<div align="center">
+  
+# 👋 Привет, я Daniil!
 
-<!--
-**tokagaz-vs/tokagaz-vs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Junior+Developer+%7C+White+Hat+Hacker;Web+%7C+Mobile+%7C+Game+Developer" alt="Typing SVG" />
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🎯 Обо мне
+
+```yaml
+name: Daniil
+role: Junior Developer
+location: Russia
+focus:
+  - 🌐 Web Development
+  - 🛡️ Cybersecurity & White Hat Hacking
+  - 📱 iOS & Android Development
+  - 🎮 Game Development
+current_status: "Изучаю новые технологии и создаю крутые проекты"
